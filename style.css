@@ -1,0 +1,39 @@
+@media print {
+  form, footer {
+    display: none;
+  }
+}
+body {
+  font-family: sans-serif;
+}
+form, footer {
+  text-align: center;
+}
+.month {
+  display: inline-block;
+  width: 31.3%;
+  margin: 0 1% 0.5em;
+}
+.month .title {
+  text-align: center;
+  font-size: x-large;
+}
+.month table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: small;
+}
+.month table th {
+  text-align: left;
+  padding: 0.25em 0.25em;
+}
+.month table td {
+  border: 1px solid black;
+  height: 2.5rem;
+  vertical-align: top;
+  padding: 0.25em 0.25em;
+}
+.month table td.noborder {
+  border: none;
+}
